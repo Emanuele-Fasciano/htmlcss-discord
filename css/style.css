@@ -168,18 +168,15 @@ h3{
 	font-weight: 900;
 }
 
-#button-bottom{
+.button-lilla{
 	background-color: #8EA1E1;
-	margin: auto;
+	margin-left: 500px;
 
 }
 /* FOOTER */
 
 .footer-main {
 	padding-top: 10px;
-
-
-	/* debug */
 	background-color: #23272a;
 }
 
@@ -197,8 +194,18 @@ h3{
 	width: calc(100% / 3);
 
 	/* debug */
-	background-color: #f08080;
-	border: 2px dashed black;
+	/* background-color: #f08080;
+	border: 2px dashed black; */
+}
+
+h4{
+	font-size: 39px;
+	color: #7289DA;
+}
+
+h5{
+	text-align: center;
+	color: #7289DA;
 }
 
 .footer-side-col {
@@ -206,16 +213,16 @@ h3{
 	width: calc(100% / 3 * 2);
 
 	/* debug */
-	background-color: #20b2aa;
-	border: 2px dashed black;
+	/* background-color: #20b2aa;
+	border: 2px dashed black; */
 }
 
 .footer-col {
 	width: 25%;
 
 	/* debug */
-	background-color: #20b2aa;
-	border: 2px dashed white;
+	/* background-color: #20b2aa;
+	border: 2px dashed white; */
 }
 
 .footer-bottom {
@@ -225,7 +232,7 @@ h3{
 	min-height: 80px;
 
 	/* debug */
-	background-color: #7fffd4;
+	/* background-color: #7fffd4; */
 }
 
 .footer-bottom>* {
@@ -233,6 +240,6 @@ h3{
 
 
 	/* debug */
-	background-color: #ffb6c1;
-	border: 2px dashed black;
+	/* background-color: #ffb6c1;
+	border: 2px dashed black; */
 }
