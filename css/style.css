@@ -59,7 +59,7 @@
 
 .jumbotron .content {
 	min-height: 400px;
-	width: 50%;
+	width: 65%;
 
 	/* debug */
 	background-color: #ee82ee;
@@ -71,10 +71,19 @@ h1{
 	font-weight: bold;
 	text-align: center;
 	padding-bottom: 40px;
+	color: white;
 }
 
-p{
+#text-jumbotron{
 	text-align: center;
+	margin-bottom: 20px;
+	line-height: 1.4;
+}
+
+.button-container{
+	display: flex;
+	justify-content: center;
+	gap: 30px;
 }
  
 .button-black{
@@ -103,19 +112,32 @@ main>section>.container {
 }
 
 .main-col {
-	flex-grow: 2;
+	width: 60%;
 
 	/* debug */
-	background-color: cornflowerblue;
-	border: 2px dashed black;
+	/* background-color: cornflowerblue; */
+	/* border: 2px dashed black; */
 }
 
 .side-col {
-	flex-grow: 1;
-
+width: 40%;
 	/* debug */
-	background-color: pink;
-	border: 2px dashed black;
+	/* background-color: pink;
+	border: 2px dashed black; */
+}
+
+h2{
+	font-size: 60px;
+	font-weight: bold;
+	text-align: left;
+	padding-top: 25px;
+	margin-bottom: 20px;
+}
+
+h2>p{
+	text-align: left;
+	line-height: 1.4;
+	
 }
 
 .hilighted-content {
